@@ -9,10 +9,10 @@ public class StreamReduce {
     }
 
     public String getLongest(List<String> words) {
-        return null;
+        return words.stream().reduce("", (word1, word2) -> word1.length() > word2.length() ? word1 : word2);
     }
 
     public int getTotalLength(List<String> words) {
-        return 0;
+        return words.stream().reduce("", (word1, word2) -> word1 + word2).length();
     }
 }

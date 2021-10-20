@@ -14,7 +14,7 @@ public class StreamSupplement {
     }
 
     public double getAverage(List<Integer> numbers) {
-        return new Double(numbers.stream().reduce(0, (start, end) -> (start + end)) / numbers.size());
+        return new Double(numbers.stream().reduce((start, end) -> start + end).orElse(0)) / numbers.size();
     }
 
     public int getMaxValue(List<Integer> numbers) {
