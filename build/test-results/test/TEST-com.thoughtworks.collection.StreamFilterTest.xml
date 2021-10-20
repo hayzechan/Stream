@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.collection.StreamFilterTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-10-20T03:24:05" hostname="ChandeMacBook-Pro.local" time="0.034">
-  <properties/>
-  <testcase name="should_return_common_elements()" classname="com.thoughtworks.collection.StreamFilterTest" time="0.024"/>
-  <testcase name="should_return_words_end_with_s()" classname="com.thoughtworks.collection.StreamFilterTest" time="0.004"/>
-  <testcase name="should_return_even()" classname="com.thoughtworks.collection.StreamFilterTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
