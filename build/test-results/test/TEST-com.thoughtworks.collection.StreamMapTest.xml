@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.thoughtworks.collection.StreamMapTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2021-10-20T03:50:49" hostname="ChandeMacBook-Pro.local" time="0.046">
-  <properties/>
-  <testcase name="should_map_to_length()" classname="com.thoughtworks.collection.StreamMapTest" time="0.039"/>
-  <testcase name="should_map_to_letter()" classname="com.thoughtworks.collection.StreamMapTest" time="0.002"/>
-  <testcase name="should_map_to_triple()" classname="com.thoughtworks.collection.StreamMapTest" time="0.002"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

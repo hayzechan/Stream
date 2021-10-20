@@ -5,7 +5,7 @@ import java.util.List;
 public class StreamReduce {
 
     public int getLastOdd(List<Integer> numbers) {
-        return 0;
+        return numbers.stream().filter(number -> number%2 ==1).reduce(0, (x,y) -> y);
     }
 
     public String getLongest(List<String> words) {
